@@ -1,0 +1,53 @@
+﻿<div class="container-fluid">
+    <div class="row col-md-9">
+        <div class="row" id="d-header">
+            <div class="col-md-12 d-show-line">
+                <h3 class="text-right">{{gallery.name}}</h3>
+            </div>
+        </div>
+        <div class="row" id="d-main">
+            <div class="col-md-6">
+                <img ng-src="{{gallery.image[0]}}" class="img-rounded" />
+            </div>
+
+            <div class="col-md-6">
+                <h4>Introduction: </h4>
+                <p  id="d-intro">
+                    {{gallery.introduction}}
+                </p>
+            </div>
+        </div>
+        <div class="row" id="d-other">
+
+            <div class="col-md-3">
+                <ul>
+                    <li class="d-li">
+                        <span class="caret"></span>
+                        <dl>
+                            <dt>Address</dt>
+                            <dd>{{gallery.address}}</dd>
+                            <dt>Visited date</dt>
+                            <dd>{{gallery.visit_time}}</dd>
+                            <dt>Go to gallery's page</dt>
+                            <a href="{{gallery.website}}">
+                                <dd>Click here</dd>
+                            </a>
+                        </dl>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-9">
+                <img ng-src="{{gallery.image[1]}}" alt="image1" class="img-thumbnail d-smallimg" />
+                <img ng-src="{{gallery.image[2]}}" alt="image2" class="img-thumbnail d-smallimg" />
+                <img ng-src="{{gallery.image[3]}}" alt="image3" class="img-thumbnail d-smallimg" />
+                <img ng-src="{{gallery.image[4]}}" alt="image4" class="img-thumbnail d-smallimg" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row col-md-3">
+    </div>
+</div>

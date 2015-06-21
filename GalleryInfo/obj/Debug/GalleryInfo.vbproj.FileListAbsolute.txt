@@ -1,0 +1,8 @@
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\bin\GalleryInfo.dll
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\bin\GalleryInfo.pdb
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\bin\GalleryInfo.xml
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.Resources.resources
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.vbproj.GenerateResource.Cache
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.dll
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.xml
+D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.pdb

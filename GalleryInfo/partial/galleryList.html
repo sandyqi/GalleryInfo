@@ -1,0 +1,41 @@
+﻿<div class="container">
+    <div class="row" id="header">
+        <header>
+            <h2 class="text-center" id="title">Gallery Info</h2>
+        </header>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="form-group">
+                <div id="searchBlock">
+                    <label for="search">Search Gallery</label>
+                    <input id="search" type="text" class="form-control" ng-model="query" />
+                </div>
+                <div id="orderBlock">
+                    <label for="order">Sort by</label>
+                    <select id="order" ng-model="ordered">
+                        <option value="name">Name</option>
+                        <option value="country">Country</option>
+
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <ul>
+                <li ng-repeat="gallery in galleries | filter:query |orderBy:ordered " id="asLi">
+                    <div id="gallery" class="row">
+                        <div class="col-md-2">
+                            <a href="#/gallery/{{gallery.id}}">
+                                <img class="img-responsive" ng-src="{{gallery.imageURL}}" /></a>
+                        </div>
+                        <div class="col-md-8">
+                            <a href="#/gallery/{{gallery.id}}">{{gallery.name}}</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
