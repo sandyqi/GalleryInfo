@@ -7,12 +7,12 @@
         </div>
         <div class="row" id="d-main">
             <div class="col-md-6">
-                <img ng-src="{{gallery.image[0]}}" class="img-rounded" />
+                <img ng-src="{{mainImg}}" class="img-rounded d-mainImg" />
             </div>
 
             <div class="col-md-6">
                 <h4>Introduction: </h4>
-                <p  id="d-intro">
+                <p id="d-intro">
                     {{gallery.introduction}}
                 </p>
             </div>
@@ -39,10 +39,11 @@
             </div>
 
             <div class="col-md-9">
-                <img ng-src="{{gallery.image[1]}}" alt="image1" class="img-thumbnail d-smallimg" />
-                <img ng-src="{{gallery.image[2]}}" alt="image2" class="img-thumbnail d-smallimg" />
-                <img ng-src="{{gallery.image[3]}}" alt="image3" class="img-thumbnail d-smallimg" />
-                <img ng-src="{{gallery.image[4]}}" alt="image4" class="img-thumbnail d-smallimg" />
+                <ul>
+                    <li ng-repeat="img in gallery.image" ng-if="$index>0" class="d-smallimg d-li">
+                        <img ng-src="{{img}}" class="img-thumbnail" ng-click="setImg(img)"/></li>
+                </ul>
+
             </div>
 
         </div>

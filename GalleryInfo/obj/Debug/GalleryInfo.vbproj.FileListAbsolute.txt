@@ -6,3 +6,11 @@ D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.vbproj.G
 D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.dll
 D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.xml
 D:\STUDY TOOL\JS practice\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.pdb
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\bin\GalleryInfo.dll
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\bin\GalleryInfo.pdb
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\bin\GalleryInfo.xml
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.Resources.resources
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.vbproj.GenerateResource.Cache
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.dll
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.xml
+C:\Users\Meng\Documents\GitHub\GalleryInfo\GalleryInfo\obj\Debug\GalleryInfo.pdb

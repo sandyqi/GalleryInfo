@@ -13,5 +13,7 @@ galleryControllers.controller('detailController', ['$scope', '$routeParams','$ht
         $scope.galleryId = $routeParams.galleryId;
         $http.get('data/'+$routeParams.galleryId+'.html').success(function (data) {
             $scope.gallery = data;
+            $scope.mainImg = data.image[0];
         });
+        $scope.setImg = function (img) { $scope.mainImg = img; };
     }]);
