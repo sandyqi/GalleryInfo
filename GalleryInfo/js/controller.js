@@ -1,19 +1,19 @@
 ﻿var galleryControllers = angular.module('galleryControllers', []);
 
-galleryControllers.controller('listController', ['$scope', '$http',
-    function ($scope, $http) {
-        $http.get('data/galleriesInfo.html').success(function (data) {
-            $scope.galleries = data;
-        })
+galleryControllers.controller('listController', ['$scope', 'Gallery',
+    function ($scope, Gallery) {
+        $scope.galleries = Gallery.query();
         $scope.ordered = 'name';
     }]);
 
-galleryControllers.controller('detailController', ['$scope', '$routeParams','$http',
-    function ($scope, $routeParams, $http) {
+galleryControllers.controller('detailController', ['$scope', '$routeParams','Gallery',
+    function ($scope, $routeParams, Gallery) {
         $scope.galleryId = $routeParams.galleryId;
-        $http.get('data/'+$routeParams.galleryId+'.html').success(function (data) {
-            $scope.gallery = data;
-            $scope.mainImg = data.image[0];
+        $scope.gallery = Gallery.get({ galleryId: $routeParams.galleryId }, function (gallery) {
+            $scope.mainImg = gallery.image[0];
         });
-        $scope.setImg = function (img) { $scope.mainImg = img; };
+
+        $scope.setImg = function (img) {
+            $scope.mainImg = img;
+        };
     }]);

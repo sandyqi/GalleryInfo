@@ -90,6 +90,7 @@
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="css\style.css" />
+    <Content Include="css\animation.css" />
     <Content Include="data\blank.html" />
     <Content Include="data\davidz.html" />
     <Content Include="data\diab.html" />
@@ -127,6 +128,9 @@
     <Content Include="image\smallsize\museodn.jpg" />
     <Content Include="image\smallsize\novacancy.jpg" />
     <Content Include="image\smallsize\solomonrg.jpg" />
+    <Content Include="js\animation.js" />
+    <Content Include="js\filter.js" />
+    <Content Include="js\service.js" />
     <Content Include="partial\galleryDetail.html" />
     <Content Include="partial\galleryList.html" />
     <Content Include="index.html" />

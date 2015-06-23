@@ -26,9 +26,12 @@
                         <dl>
                             <dt>Address</dt>
                             <dd>{{gallery.address}}</dd>
+                            <dt>Free Parking</dt>
+                            <dd>{{gallery.parking | checkParkingFilter}}</dd>
                             <dt>Visited date</dt>
                             <dd>{{gallery.visit_time}}</dd>
                             <dt>Go to gallery's page</dt>
+
                             <a href="{{gallery.website}}">
                                 <dd>Click here</dd>
                             </a>

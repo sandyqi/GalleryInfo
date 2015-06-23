@@ -1,6 +1,8 @@
 ﻿var myApp = angular.module('myApp', [
         'ngRoute',
-        'galleryControllers'
+        'galleryControllers',
+        'galleryFilters',
+        'galleryServices'
 ]);
 
 myApp.config(['$routeProvider',
