@@ -1,1 +1,1 @@
-﻿
+﻿angular.module('galleryAnimations', ['ngAnimate']);

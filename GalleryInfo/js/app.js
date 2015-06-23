@@ -2,7 +2,8 @@
         'ngRoute',
         'galleryControllers',
         'galleryFilters',
-        'galleryServices'
+        'galleryServices',
+        'galleryAnimations'
 ]);
 
 myApp.config(['$routeProvider',
